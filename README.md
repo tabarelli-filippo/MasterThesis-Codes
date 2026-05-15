@@ -4,6 +4,7 @@
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2025a-blue.svg)](https://mathworks.com)
 [![Python](https://img.shields.io/badge/Python-3.x-green.svg)](https://python.org)
 [![Thesis](https://img.shields.io/badge/Thesis-UniPD-red.svg)](https://thesis.unipd.it/handle/20.500.12608/107544)
+[![Release](https://img.shields.io/github/v/release/tabarelli-filippo/MasterThesis-Codes)](https://github.com/tabarelli-filippo/MasterThesis-Codes/releases)
 
 The design of modern aircraft engines demands significant resources in terms of both time and funding. At present, vibration is among the critical areas primarily responsible for design inefficiency, as predictions in this field still rely extensively on semi-empirical correlations.
 
