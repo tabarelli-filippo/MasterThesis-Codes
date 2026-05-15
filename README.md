@@ -19,12 +19,19 @@ The rotordynamic software was successfully validated against four literature cas
 
 ## Local Scale Analysis: Aeroelasticity
 
-For the local scale, the framework implements the identification of mistuning parameters, aerodynamic forcing functions, and Aerodynamic Influence Coefficients. The estimation leverages a Least-Squares Complex Frequency-Domain algorithm applied to simulated Blade Tip Timing measurements. 
+For the local scale, the framework implements the identification of mistuning parameters, aerodynamic forcing functions, and Aerodynamic Influence Coefficients. The estimation leverages a Least-Squares Complex Frequency-Domain algorithm applied to simulated Blade Tip Timing measurements. The aeroelastic identification codes are implemented entirely in **Python**.
 
-The aeroelastic identification procedure was applied to a simulated rotor, based on the Purdue Rotor 2 case study, reproducing the results established by Hall et al. (2024).
+The aeroelastic identification procedure was applied to a simulated rotor, based on the Purdue Rotor 2 case study, reproducing the results established by Hall et al. (2024, [DOI: 10.1115/1.4064816](https://doi.org/10.1115/1.4064816)).
 
 ## Documentation and Requirements
 
-For the complete operation and usage of the code, a comprehensive User Manual is provided within the repository, available in both Italian and English. The manual details the theoretical background, the data structures, matrix assembly procedures, and function signatures required to run the solver.
+For the complete operation and usage of the codes, a comprehensive User Manual is provided within the repository, available in both Italian and English. The manual details the theoretical background, the data structures, matrix assembly procedures, and function signatures required to run the analyses.
 
-**Requirements:** MATLAB (developed and tested on recent releases). No strict external dependencies are required beyond standard MATLAB toolboxes.
+**System Requirements:**
+
+* **Rotordynamics (MATLAB):**
+  * Developed and tested using **MATLAB R2025a**. No strict external dependencies are required beyond standard MATLAB toolboxes.
+* **Aeroelasticity (Python):**
+  * Written in **Python**.
+  * Requires the **Ipopt** (Interior Point Optimizer) solver ([GitHub repository](https://github.com/coin-or/IPOPT)) for the numerical optimization routines. The implementation of this solver is based on the work of Wächter and Biegler ([DOI: 10.1007/s10107-004-0559-y](https://doi.org/10.1007/s10107-004-0559-y)).
+  * Standard scientific Python libraries are required (e.g., `NumPy`, `SciPy`, `Matplotlib`, and a Python interface for Ipopt such as `cyipopt`).
