@@ -8,7 +8,9 @@ For a comprehensive overview of the theoretical background and the complete work
 
 ## Global Scale Analysis: Rotordynamics
 
-For the global scale, a one-dimensional shaft-line FE model was developed to evaluate the lateral vibrations of multi-disk rotor systems. By expressing the element matrices in closed form, the solution is obtained without numerical integration, significantly reducing processing time. The tool addresses both the linear and non-linear system behaviours, incorporating effects from bearings, squeeze-film dampers, seals and aerodynamic forces. 
+For the global scale, a one-dimensional shaft-line FE model was developed to evaluate the lateral vibrations of multi-disk rotor systems. The theoretical formulation and implementation of the code are based on the work of **Michael I. Friswell** (*Dynamics of Rotating Machines*, Cambridge University Press, 2010).
+
+By expressing the element matrices in closed form, the solution is obtained without numerical integration, significantly reducing processing time. The tool addresses both the linear and non-linear system behaviours, incorporating effects from bearings, squeeze-film dampers, seals and aerodynamic forces. 
 
 The rotordynamic software was successfully validated against four literature cases and demonstrated consistency with modern commercial and in-house software, including DYNROT, XLRotor, and ANSYS.
 
