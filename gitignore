@@ -1,0 +1,95 @@
+# =====================
+# MATLAB
+# =====================
+
+# Autosave files
+*.asv
+*.m~
+
+# Compiled MEX files
+*.mex*
+*.mexw32
+*.mexw64
+*.mexmaci64
+*.mexmaca64
+
+# Simulink generated files
+*.slxc
+slprj/
+
+# MATLAB crash dumps
+matlab_crash_dump.*
+
+# Temporary files
+*.tmp
+
+# =====================
+# Python
+# =====================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+*.cover
+
+# =====================
+# OS & Editors
+# =====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# =====================
+# Data & Output files
+# =====================
+
+# Large data files (uncomment if needed)
+# *.mat
+# *.h5
+# *.hdf5
+
+# Output figures
+# *.fig
+# *.png
+# *.pdf

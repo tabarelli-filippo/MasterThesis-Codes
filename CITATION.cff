@@ -1,1 +1,54 @@
-cff-version: 1.2.0 ... (content) ...
+cff-version: 1.2.0
+title: "Numerical Tools for Aircraft Engine Vibration Analysis"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: Tabarelli
+    given-names: Filippo
+    affiliation: "University of Padova (Università degli Studi di Padova)"
+repository-code: "https://github.com/tabarelli-filippo/MasterThesis-Codes"
+url: "https://thesis.unipd.it/handle/20.500.12608/107544"
+abstract: >
+  FE-based reduced order models for rotordynamic and aeroelastic analysis
+  of aircraft engines. Includes a 1D shaft-line finite element model (MATLAB)
+  for lateral vibration analysis of multi-disk rotor systems, and a Python
+  framework for aeroelastic identification using Blade Tip Timing measurements.
+  Developed as part of a Master's Thesis at the University of Padova.
+keywords:
+  - rotordynamics
+  - aeroelasticity
+  - finite-element
+  - reduced-order-model
+  - vibration-analysis
+  - aircraft-engine
+  - blade-tip-timing
+  - matlab
+  - python
+license: MIT
+date-released: "2025-01-01"
+version: "1.0.0"
+references:
+  - type: thesis
+    title: "Numerical Tools for Aircraft Engine Vibration Analysis"
+    authors:
+      - family-names: Tabarelli
+        given-names: Filippo
+    institution:
+      name: "University of Padova"
+    year: 2025
+    url: "https://thesis.unipd.it/handle/20.500.12608/107544"
+  - type: book
+    title: "Dynamics of Rotating Machines"
+    authors:
+      - family-names: Friswell
+        given-names: "Michael I."
+    publisher: "Cambridge University Press"
+    year: 2010
+    isbn: "9780521850162"
+  - type: article
+    title: "Identification of Mistuning and Aerodynamic Parameters from Blade Tip Timing Data"
+    authors:
+      - family-names: Hall
+        given-names: K. C.
+    year: 2024
+    doi: "10.1115/1.4064816"
