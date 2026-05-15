@@ -18,10 +18,12 @@ For a comprehensive overview of the theoretical background and the complete work
 
 ```
 MasterThesis-Codes/
-├── Rotordynamics/          # MATLAB – global scale (shaft-line FE model)
-├── Aeroelasticity/         # Python – local scale (blade row identification)
-├── CITATION.cff            # Citation metadata
-├── LICENSE                 # MIT License
+├── Rotordynamics/                        # MATLAB – global scale (shaft-line FE model)
+│   ├── UserManual_Rotordynamics_EN.pdf   # User Manual (English)
+│   └── UserManual_Rotordynamics_IT.pdf   # Manuale Utente (Italiano)
+├── Aeroelasticity/                       # Python – local scale (blade row identification)
+├── CITATION.cff                          # Citation metadata
+├── LICENSE                               # MIT License
 └── README.md
 ```
 
@@ -103,7 +105,12 @@ pip install -r Aeroelasticity/requirements.txt
 
 ## Documentation
 
-A comprehensive **User Manual** is provided within the repository in both **Italian** and **English**. It covers:
+A comprehensive **User Manual** for the Rotordynamics module is provided inside the [`Rotordynamics/`](Rotordynamics/) folder in both languages:
+
+- 🇬🇧 [`UserManual_Rotordynamics_EN.pdf`](Rotordynamics/UserManual_Rotordynamics_EN.pdf) — English
+- 🇮🇹 [`UserManual_Rotordynamics_IT.pdf`](Rotordynamics/UserManual_Rotordynamics_IT.pdf) — Italiano
+
+The manual covers:
 - Theoretical background for both modules
 - Data structures and matrix assembly procedures
 - Full function signatures and parameter descriptions
