@@ -1,1 +1,3 @@
-addpath(genpath(pwd)); ... (content) ...
+% Add necessary folders to MATLAB path
+addpath(genpath(pwd));
+disp('Rotordynamics Solver Environment Loaded.');
